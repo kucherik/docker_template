@@ -9,7 +9,7 @@ start: #Containers start
 stop: #Stop
 	@sudo docker-compose stop
 
-build: #Stop
+build: #Build
 	@sudo docker-compose build
 
 show_containers:
